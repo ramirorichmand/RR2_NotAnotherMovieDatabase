@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+@layer components {
+    .opacity-background{
+        background: linear-gradient(180deg,rgba(4,21,45,0) 0%,#04152d 79.17%);
+    }
+    .icons-shadow{
+        box-shadow: 0 0 6px 3px #da2f68;
+    }
+    .bg-grd{
+        background: linear-gradient(98.37deg, #f89e00 .99%, #da2f68 100%);
+    }
+    .carousel-item-padding-40-px{
+        padding-inline: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+}
+
+body{
+    background-color: #04152d;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+
